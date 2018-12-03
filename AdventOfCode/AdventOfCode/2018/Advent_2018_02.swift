@@ -28,24 +28,16 @@ public class Advent_2018_02 {
         return twoCount * threeCount
     }
     
-    public static func part2(_ boxIds: [String]) -> String {
+    public static func part2(_ boxIds: [String]) -> String? {
         for boxIdA in boxIds {
             for boxIdB in boxIds {
-                var match: [Character] = []
-                for offset in 0 ..< boxIdB.count {
-                    let cA = boxIdA[boxIdA.index(boxIdA.startIndex, offsetBy: offset)]
-                    let cB = boxIdB[boxIdB.index(boxIdB.startIndex, offsetBy: offset)]
-                    
-                    if cA == cB {
-                        match.append(cA)
-                    }
-                }
+                let match = zip(boxIdA, boxIdB).compactMap({ $0.0 == $0.1 ? $0.0 : nil })
                 if match.count == boxIdA.count - 1 {
                     return String(match)
                 }
             }
         }
         
-        return ""
+        return nil
     }
 }
