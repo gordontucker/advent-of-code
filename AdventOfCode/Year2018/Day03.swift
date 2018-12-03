@@ -8,10 +8,22 @@
 
 import UIKit
 
-public class Advent_2018_03 {
-    public static func run(_ inputs: [String]) -> (overlapCount: Int, code: String) {
+public class Day03: Day {
+    public init() {
+        super.init(filename: #file)
+        self.run()
+    }
+    public init(_ lines: [String]) {
+        super.init(reader: ArrayReader(lines))
+        self.run()
+    }
+    
+    public var overlapCount: Int = 0
+    public var code: String = ""
+    
+    public func run() {
         // Parse inputs into usable structures
-        let inputs: [(id: String, x: Int, y: Int, width: Int, height: Int)] = inputs.map({
+        let inputs: [(id: String, x: Int, y: Int, width: Int, height: Int)] = self.reader.read({
             let clean = $0.replacingOccurrences(of: " ", with: "")
             let split1 = clean.split(separator: "@")
             let split2 = split1[1].split(separator: ":")
@@ -22,38 +34,29 @@ public class Advent_2018_03 {
         })
         
         // Build our map of used spaces (determine max x and y from inputs)
-        var fabric: [[Int]] = []
         let maxX = inputs.map({ $0.x + $0.width }).max()!
         let maxY = inputs.map({ $0.y + $0.height }).max()!
-        for _ in 0 ... maxX {
-            fabric.append([Int](repeating: 0, count: maxY))
-        }
+        var fabric = [Int](repeating: 0, count: maxX * maxY)
         
         // Calculate how many overlaps on each x,y
         for input in inputs {
             for x in input.x ..< input.x + input.width {
                 for y in input.y ..< input.y + input.height {
-                    var row = fabric[x]
-                    row[y] += 1
-                    fabric[x] = row
+                    fabric[x + (y * maxX)] += 1
                 }
             }
         }
         
         // Count the overlaps
-        let overlapCount = fabric.map({ row in
-            row.map({ $0 >= 2 ? 1 : 0 }).reduce(0, { $0 + $1 })
-        }).reduce(0, { $0 + $1 })
+        self.overlapCount = fabric.reduce(0, { $0 + ($1 >= 2 ? 1 : 0) })
         
         // Find the code with no overlaps
-        var code: String?
         for input in inputs {
-            guard code == nil else { break }
             var overlapped = false
             for x in input.x ..< input.x + input.width {
                 guard !overlapped else { break }
                 for y in input.y ..< input.y + input.height {
-                    guard fabric[x][y] == 1 else {
+                    guard fabric[x + (y * maxX)] == 1 else {
                         overlapped = true
                         break
                     }
@@ -61,10 +64,9 @@ public class Advent_2018_03 {
             }
             
             if !overlapped {
-                code = input.id
+                self.code = input.id
+                break
             }
         }
-        
-        return (overlapCount: overlapCount, code: code ?? "")
     }
 }

@@ -8,13 +8,16 @@
 
 import UIKit
 
-public class Advent_2018_01 {
+public class Day01: Day {
+    public init() { super.init(filename: #file) }
+    public init(_ lines: [String]) { super.init(reader: ArrayReader(lines)) }
     
-    public static func part1(_ values: [Int]) -> Int {
-        return values.reduce(0, { $0 + $1 })
+    public func finalFrequency() -> Int {
+        return self.reader.readInts().reduce(0, { $0 + $1 })
     }
     
-    public static func part2(_ values: [Int]) -> Int {
+    public func duplicateFrequency() -> Int {
+        let values = self.reader.readInts()
         var value: Int = 0
         var valuesFound: Set<Int> = [0]
         var duplicate: Int?
@@ -28,6 +31,6 @@ public class Advent_2018_01 {
                 valuesFound.insert(value)
             }
         }
-        return duplicate ?? value
+        return duplicate!
     }
 }
