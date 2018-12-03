@@ -17,6 +17,8 @@
 		F88308DA21B5A041005CFB9D /* Advent_2018_01_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308D921B5A041005CFB9D /* Advent_2018_01_Test.swift */; };
 		F88308DC21B5A167005CFB9D /* Advent_2018_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308DB21B5A167005CFB9D /* Advent_2018_02.swift */; };
 		F88308DE21B5A177005CFB9D /* Advent_2018_02_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308DD21B5A177005CFB9D /* Advent_2018_02_Test.swift */; };
+		F88308E021B5A2FA005CFB9D /* Advent_2018_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308DF21B5A2FA005CFB9D /* Advent_2018_03.swift */; };
+		F88308E221B5A311005CFB9D /* Advent_2018_03_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308E121B5A311005CFB9D /* Advent_2018_03_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F88308D921B5A041005CFB9D /* Advent_2018_01_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent_2018_01_Test.swift; sourceTree = "<group>"; };
 		F88308DB21B5A167005CFB9D /* Advent_2018_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent_2018_02.swift; sourceTree = "<group>"; };
 		F88308DD21B5A177005CFB9D /* Advent_2018_02_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent_2018_02_Test.swift; sourceTree = "<group>"; };
+		F88308DF21B5A2FA005CFB9D /* Advent_2018_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent_2018_03.swift; sourceTree = "<group>"; };
+		F88308E121B5A311005CFB9D /* Advent_2018_03_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advent_2018_03_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 			children = (
 				F88308D621B59FE8005CFB9D /* Advent_2018_01.swift */,
 				F88308DB21B5A167005CFB9D /* Advent_2018_02.swift */,
+				F88308DF21B5A2FA005CFB9D /* Advent_2018_03.swift */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			children = (
 				F88308D921B5A041005CFB9D /* Advent_2018_01_Test.swift */,
 				F88308DD21B5A177005CFB9D /* Advent_2018_02_Test.swift */,
+				F88308E121B5A311005CFB9D /* Advent_2018_03_Test.swift */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88308DC21B5A167005CFB9D /* Advent_2018_02.swift in Sources */,
+				F88308E021B5A2FA005CFB9D /* Advent_2018_03.swift in Sources */,
 				F88308B721B59F71005CFB9D /* ViewController.swift in Sources */,
 				F88308B521B59F71005CFB9D /* AppDelegate.swift in Sources */,
 				F88308D721B59FE8005CFB9D /* Advent_2018_01.swift in Sources */,
@@ -237,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88308CA21B59F73005CFB9D /* AdventOfCodeTests.swift in Sources */,
+				F88308E221B5A311005CFB9D /* Advent_2018_03_Test.swift in Sources */,
 				F88308DA21B5A041005CFB9D /* Advent_2018_01_Test.swift in Sources */,
 				F88308DE21B5A177005CFB9D /* Advent_2018_02_Test.swift in Sources */,
 			);

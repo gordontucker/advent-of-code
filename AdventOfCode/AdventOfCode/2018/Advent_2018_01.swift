@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class Advent_2018_01: NSObject {
+public class Advent_2018_01 {
     
     public static func part1(_ values: [Int]) -> Int {
         return values.reduce(0, { $0 + $1 })
