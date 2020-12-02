@@ -7,134 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F88308B521B59F71005CFB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308B421B59F71005CFB9D /* AppDelegate.swift */; };
-		F88308B721B59F71005CFB9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308B621B59F71005CFB9D /* ViewController.swift */; };
-		F88308BA21B59F71005CFB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88308B821B59F71005CFB9D /* Main.storyboard */; };
-		F88308BC21B59F73005CFB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88308BB21B59F73005CFB9D /* Assets.xcassets */; };
-		F88308BF21B59F73005CFB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88308BD21B59F73005CFB9D /* LaunchScreen.storyboard */; };
-		F88308E421B5B11B005CFB9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308E321B5B11B005CFB9D /* Extensions.swift */; };
-		F88308F521B5B424005CFB9D /* Year2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88308EC21B5B424005CFB9D /* Year2018.framework */; };
-		F88308FE21B5B424005CFB9D /* Year2018.h in Headers */ = {isa = PBXBuildFile; fileRef = F88308EE21B5B424005CFB9D /* Year2018.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F883090121B5B424005CFB9D /* Year2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88308EC21B5B424005CFB9D /* Year2018.framework */; };
-		F883090221B5B424005CFB9D /* Year2018.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F88308EC21B5B424005CFB9D /* Year2018.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F883090A21B5B42F005CFB9D /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308DB21B5A167005CFB9D /* Day02.swift */; };
-		F883090B21B5B42F005CFB9D /* Day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308DF21B5A2FA005CFB9D /* Day03.swift */; };
-		F883090C21B5B42F005CFB9D /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308D621B59FE8005CFB9D /* Day01.swift */; };
-		F883090D21B5B451005CFB9D /* Day02Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308DD21B5A177005CFB9D /* Day02Test.swift */; };
-		F883090E21B5B451005CFB9D /* Day01Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308D921B5A041005CFB9D /* Day01Test.swift */; };
-		F883090F21B5B451005CFB9D /* Day03Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88308E121B5A311005CFB9D /* Day03Test.swift */; };
-		F883091121B5B540005CFB9D /* Day01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883091021B5B540005CFB9D /* Day01.txt */; };
-		F883091521B5B5E2005CFB9D /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883091421B5B5E2005CFB9D /* Day.swift */; };
-		F883091721B5B616005CFB9D /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883091621B5B615005CFB9D /* Reader.swift */; };
-		F883091921B5D2CC005CFB9D /* Day02.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883091821B5D2CC005CFB9D /* Day02.txt */; };
-		F883091B21B5D400005CFB9D /* Day03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883091A21B5D400005CFB9D /* Day03.txt */; };
-		F883091D21B5D503005CFB9D /* Day04Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883091C21B5D503005CFB9D /* Day04Test.swift */; };
-		F883091F21B5D52F005CFB9D /* Day05Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883091E21B5D52F005CFB9D /* Day05Test.swift */; };
-		F883092121B5D53B005CFB9D /* Day06Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092021B5D53B005CFB9D /* Day06Test.swift */; };
-		F883092321B5D544005CFB9D /* Day07Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092221B5D544005CFB9D /* Day07Test.swift */; };
-		F883092521B5D54D005CFB9D /* Day08Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092421B5D54D005CFB9D /* Day08Test.swift */; };
-		F883092721B5D555005CFB9D /* Day09Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092621B5D555005CFB9D /* Day09Test.swift */; };
-		F883092921B5D55C005CFB9D /* Day10Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092821B5D55C005CFB9D /* Day10Test.swift */; };
-		F883092B21B5D564005CFB9D /* Day11Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092A21B5D564005CFB9D /* Day11Test.swift */; };
-		F883092D21B5D56B005CFB9D /* Day12Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092C21B5D56B005CFB9D /* Day12Test.swift */; };
-		F883092F21B5D573005CFB9D /* Day13Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883092E21B5D573005CFB9D /* Day13Test.swift */; };
-		F883093121B5D57B005CFB9D /* Day14Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093021B5D57B005CFB9D /* Day14Test.swift */; };
-		F883093321B5D583005CFB9D /* Day15Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093221B5D583005CFB9D /* Day15Test.swift */; };
-		F883093521B5D58D005CFB9D /* Day16Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093421B5D58D005CFB9D /* Day16Test.swift */; };
-		F883093721B5D596005CFB9D /* Day17Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093621B5D596005CFB9D /* Day17Test.swift */; };
-		F883093921B5D59E005CFB9D /* Day18Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093821B5D59E005CFB9D /* Day18Test.swift */; };
-		F883093B21B5D5A6005CFB9D /* Day19Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093A21B5D5A6005CFB9D /* Day19Test.swift */; };
-		F883093D21B5D5AE005CFB9D /* Day20Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093C21B5D5AE005CFB9D /* Day20Test.swift */; };
-		F883093F21B5D5B7005CFB9D /* Day21Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883093E21B5D5B7005CFB9D /* Day21Test.swift */; };
-		F883094121B5D5BF005CFB9D /* Day22Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094021B5D5BF005CFB9D /* Day22Test.swift */; };
-		F883094321B5D5C8005CFB9D /* Day23Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094221B5D5C8005CFB9D /* Day23Test.swift */; };
-		F883094521B5D5D1005CFB9D /* Day24Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094421B5D5D1005CFB9D /* Day24Test.swift */; };
-		F883094721B5D5D9005CFB9D /* Day25Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094621B5D5D9005CFB9D /* Day25Test.swift */; };
-		F883097421B5D6D5005CFB9D /* Day20.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883094821B5D6D0005CFB9D /* Day20.txt */; };
-		F883097521B5D6D5005CFB9D /* Day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094921B5D6D0005CFB9D /* Day06.swift */; };
-		F883097621B5D6D5005CFB9D /* Day25.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094A21B5D6D0005CFB9D /* Day25.swift */; };
-		F883097721B5D6D5005CFB9D /* Day23.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094B21B5D6D0005CFB9D /* Day23.swift */; };
-		F883097821B5D6D5005CFB9D /* Day07.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883094C21B5D6D0005CFB9D /* Day07.txt */; };
-		F883097921B5D6D5005CFB9D /* Day08.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883094D21B5D6D0005CFB9D /* Day08.txt */; };
-		F883097A21B5D6D5005CFB9D /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094E21B5D6D0005CFB9D /* Day10.swift */; };
-		F883097B21B5D6D5005CFB9D /* Day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883094F21B5D6D0005CFB9D /* Day05.swift */; };
-		F883097C21B5D6D5005CFB9D /* Day12.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095021B5D6D0005CFB9D /* Day12.txt */; };
-		F883097D21B5D6D5005CFB9D /* Day25.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095121B5D6D1005CFB9D /* Day25.txt */; };
-		F883097E21B5D6D5005CFB9D /* Day06.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095221B5D6D1005CFB9D /* Day06.txt */; };
-		F883097F21B5D6D5005CFB9D /* Day19.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095321B5D6D1005CFB9D /* Day19.txt */; };
-		F883098021B5D6D5005CFB9D /* Day22.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883095421B5D6D1005CFB9D /* Day22.swift */; };
-		F883098121B5D6D5005CFB9D /* Day18.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095521B5D6D1005CFB9D /* Day18.txt */; };
-		F883098221B5D6D5005CFB9D /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883095621B5D6D1005CFB9D /* Day16.swift */; };
-		F883098321B5D6D5005CFB9D /* Day23.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095721B5D6D1005CFB9D /* Day23.txt */; };
-		F883098421B5D6D5005CFB9D /* Day24.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095821B5D6D1005CFB9D /* Day24.txt */; };
-		F883098521B5D6D5005CFB9D /* Day15.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095921B5D6D1005CFB9D /* Day15.txt */; };
-		F883098621B5D6D5005CFB9D /* Day14.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095A21B5D6D1005CFB9D /* Day14.txt */; };
-		F883098721B5D6D5005CFB9D /* Day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883095B21B5D6D1005CFB9D /* Day19.swift */; };
-		F883098821B5D6D5005CFB9D /* Day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883095C21B5D6D1005CFB9D /* Day13.swift */; };
-		F883098921B5D6D5005CFB9D /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883095D21B5D6D2005CFB9D /* Day11.swift */; };
-		F883098A21B5D6D5005CFB9D /* Day04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095E21B5D6D2005CFB9D /* Day04.txt */; };
-		F883098B21B5D6D5005CFB9D /* Day21.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883095F21B5D6D2005CFB9D /* Day21.txt */; };
-		F883098C21B5D6D5005CFB9D /* Day08.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096021B5D6D2005CFB9D /* Day08.swift */; };
-		F883098D21B5D6D5005CFB9D /* Day07.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096121B5D6D2005CFB9D /* Day07.swift */; };
-		F883098E21B5D6D5005CFB9D /* Day24.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096221B5D6D2005CFB9D /* Day24.swift */; };
-		F883098F21B5D6D5005CFB9D /* Day09.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883096321B5D6D2005CFB9D /* Day09.txt */; };
-		F883099021B5D6D5005CFB9D /* Day21.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096421B5D6D2005CFB9D /* Day21.swift */; };
-		F883099121B5D6D5005CFB9D /* Day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096521B5D6D2005CFB9D /* Day04.swift */; };
-		F883099221B5D6D5005CFB9D /* Day20.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096621B5D6D3005CFB9D /* Day20.swift */; };
-		F883099321B5D6D5005CFB9D /* Day09.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096721B5D6D3005CFB9D /* Day09.swift */; };
-		F883099421B5D6D5005CFB9D /* Day11.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883096821B5D6D3005CFB9D /* Day11.txt */; };
-		F883099521B5D6D5005CFB9D /* Day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096921B5D6D3005CFB9D /* Day17.swift */; };
-		F883099621B5D6D5005CFB9D /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096A21B5D6D3005CFB9D /* Day12.swift */; };
-		F883099721B5D6D5005CFB9D /* Day13.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883096B21B5D6D3005CFB9D /* Day13.txt */; };
-		F883099821B5D6D5005CFB9D /* Day22.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883096C21B5D6D3005CFB9D /* Day22.txt */; };
-		F883099921B5D6D5005CFB9D /* Day14.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096D21B5D6D3005CFB9D /* Day14.swift */; };
-		F883099A21B5D6D5005CFB9D /* Day05.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883096E21B5D6D4005CFB9D /* Day05.txt */; };
-		F883099B21B5D6D5005CFB9D /* Day15.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883096F21B5D6D4005CFB9D /* Day15.swift */; };
-		F883099C21B5D6D5005CFB9D /* Day10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883097021B5D6D4005CFB9D /* Day10.txt */; };
-		F883099D21B5D6D5005CFB9D /* Day16.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883097121B5D6D4005CFB9D /* Day16.txt */; };
-		F883099E21B5D6D5005CFB9D /* Day18.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883097221B5D6D4005CFB9D /* Day18.swift */; };
-		F883099F21B5D6D5005CFB9D /* Day17.txt in Resources */ = {isa = PBXBuildFile; fileRef = F883097321B5D6D4005CFB9D /* Day17.txt */; };
+		F8D18BC825780C6D00EF7B06 /* aoc_shared.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D18BBA25780C6D00EF7B06 /* aoc_shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D18C0325780C9400EF7B06 /* AOC2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18BFA25780C9300EF7B06 /* AOC2020.framework */; };
+		F8D18C0A25780C9400EF7B06 /* aoc_2020.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D18BFC25780C9300EF7B06 /* aoc_2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D18C2225780CCD00EF7B06 /* Day01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8D18C1E25780CCD00EF7B06 /* Day01.txt */; };
+		F8D18C2325780CCD00EF7B06 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D18C1F25780CCD00EF7B06 /* Day01.swift */; };
+		F8D18C2425780CCD00EF7B06 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D18C2025780CCD00EF7B06 /* Day02.swift */; };
+		F8D18C2525780CCD00EF7B06 /* Day02.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8D18C2125780CCD00EF7B06 /* Day02.txt */; };
+		F8D18C3425780CE900EF7B06 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D18C3325780CE900EF7B06 /* Tests.swift */; };
+		F8D18C4425780D5D00EF7B06 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D18C4225780D5D00EF7B06 /* Day.swift */; };
+		F8D18C4525780D5D00EF7B06 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D18C4325780D5D00EF7B06 /* Reader.swift */; };
+		F8D18C6525780DD000EF7B06 /* AOCshared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18BB825780C6D00EF7B06 /* AOCshared.framework */; };
+		F8D18C6625780DD000EF7B06 /* AOCshared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18BB825780C6D00EF7B06 /* AOCshared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F88308C621B59F73005CFB9D /* PBXContainerItemProxy */ = {
+		F8D18C0425780C9400EF7B06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F88308A921B59F71005CFB9D /* Project object */;
+			containerPortal = F8D18B8E25780C5000EF7B06 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F88308B021B59F71005CFB9D;
-			remoteInfo = AdventOfCode;
+			remoteGlobalIDString = F8D18BF925780C9300EF7B06;
+			remoteInfo = "aoc-2020";
 		};
-		F88308F621B5B424005CFB9D /* PBXContainerItemProxy */ = {
+		F8D18C6725780DD000EF7B06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F88308A921B59F71005CFB9D /* Project object */;
+			containerPortal = F8D18B8E25780C5000EF7B06 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F88308EB21B5B424005CFB9D;
-			remoteInfo = Year2018;
-		};
-		F88308F821B5B424005CFB9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F88308A921B59F71005CFB9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F88308B021B59F71005CFB9D;
-			remoteInfo = AdventOfCode;
-		};
-		F88308FF21B5B424005CFB9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F88308A921B59F71005CFB9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F88308EB21B5B424005CFB9D;
-			remoteInfo = Year2018;
+			remoteGlobalIDString = F8D18BB725780C6D00EF7B06;
+			remoteInfo = AOCshared;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F883090621B5B424005CFB9D /* Embed Frameworks */ = {
+		F8D18C6925780DD000EF7B06 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F883090221B5B424005CFB9D /* Year2018.framework in Embed Frameworks */,
+				F8D18C6625780DD000EF7B06 /* AOCshared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,387 +53,230 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F88308B121B59F71005CFB9D /* AdventOfCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88308B421B59F71005CFB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F88308B621B59F71005CFB9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F88308B921B59F71005CFB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F88308BB21B59F73005CFB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F88308BE21B59F73005CFB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F88308C021B59F73005CFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F88308C521B59F73005CFB9D /* AdventOfCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88308CB21B59F73005CFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F88308D621B59FE8005CFB9D /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
-		F88308D921B5A041005CFB9D /* Day01Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01Test.swift; sourceTree = "<group>"; };
-		F88308DB21B5A167005CFB9D /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
-		F88308DD21B5A177005CFB9D /* Day02Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02Test.swift; sourceTree = "<group>"; };
-		F88308DF21B5A2FA005CFB9D /* Day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day03.swift; sourceTree = "<group>"; };
-		F88308E121B5A311005CFB9D /* Day03Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day03Test.swift; sourceTree = "<group>"; };
-		F88308E321B5B11B005CFB9D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		F88308EC21B5B424005CFB9D /* Year2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Year2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88308EE21B5B424005CFB9D /* Year2018.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Year2018.h; sourceTree = "<group>"; };
-		F88308EF21B5B424005CFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F88308F421B5B424005CFB9D /* Year2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Year2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88308FD21B5B424005CFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F883091021B5B540005CFB9D /* Day01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day01.txt; sourceTree = "<group>"; };
-		F883091421B5B5E2005CFB9D /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
-		F883091621B5B615005CFB9D /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
-		F883091821B5D2CC005CFB9D /* Day02.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day02.txt; sourceTree = "<group>"; };
-		F883091A21B5D400005CFB9D /* Day03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day03.txt; sourceTree = "<group>"; };
-		F883091C21B5D503005CFB9D /* Day04Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day04Test.swift; sourceTree = "<group>"; };
-		F883091E21B5D52F005CFB9D /* Day05Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day05Test.swift; sourceTree = "<group>"; };
-		F883092021B5D53B005CFB9D /* Day06Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day06Test.swift; sourceTree = "<group>"; };
-		F883092221B5D544005CFB9D /* Day07Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day07Test.swift; sourceTree = "<group>"; };
-		F883092421B5D54D005CFB9D /* Day08Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day08Test.swift; sourceTree = "<group>"; };
-		F883092621B5D555005CFB9D /* Day09Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day09Test.swift; sourceTree = "<group>"; };
-		F883092821B5D55C005CFB9D /* Day10Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10Test.swift; sourceTree = "<group>"; };
-		F883092A21B5D564005CFB9D /* Day11Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Test.swift; sourceTree = "<group>"; };
-		F883092C21B5D56B005CFB9D /* Day12Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12Test.swift; sourceTree = "<group>"; };
-		F883092E21B5D573005CFB9D /* Day13Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13Test.swift; sourceTree = "<group>"; };
-		F883093021B5D57B005CFB9D /* Day14Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14Test.swift; sourceTree = "<group>"; };
-		F883093221B5D583005CFB9D /* Day15Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15Test.swift; sourceTree = "<group>"; };
-		F883093421B5D58D005CFB9D /* Day16Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16Test.swift; sourceTree = "<group>"; };
-		F883093621B5D596005CFB9D /* Day17Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17Test.swift; sourceTree = "<group>"; };
-		F883093821B5D59E005CFB9D /* Day18Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18Test.swift; sourceTree = "<group>"; };
-		F883093A21B5D5A6005CFB9D /* Day19Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19Test.swift; sourceTree = "<group>"; };
-		F883093C21B5D5AE005CFB9D /* Day20Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20Test.swift; sourceTree = "<group>"; };
-		F883093E21B5D5B7005CFB9D /* Day21Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21Test.swift; sourceTree = "<group>"; };
-		F883094021B5D5BF005CFB9D /* Day22Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22Test.swift; sourceTree = "<group>"; };
-		F883094221B5D5C8005CFB9D /* Day23Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23Test.swift; sourceTree = "<group>"; };
-		F883094421B5D5D1005CFB9D /* Day24Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Test.swift; sourceTree = "<group>"; };
-		F883094621B5D5D9005CFB9D /* Day25Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day25Test.swift; sourceTree = "<group>"; };
-		F883094821B5D6D0005CFB9D /* Day20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day20.txt; sourceTree = "<group>"; };
-		F883094921B5D6D0005CFB9D /* Day06.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day06.swift; sourceTree = "<group>"; };
-		F883094A21B5D6D0005CFB9D /* Day25.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day25.swift; sourceTree = "<group>"; };
-		F883094B21B5D6D0005CFB9D /* Day23.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23.swift; sourceTree = "<group>"; };
-		F883094C21B5D6D0005CFB9D /* Day07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day07.txt; sourceTree = "<group>"; };
-		F883094D21B5D6D0005CFB9D /* Day08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day08.txt; sourceTree = "<group>"; };
-		F883094E21B5D6D0005CFB9D /* Day10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
-		F883094F21B5D6D0005CFB9D /* Day05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day05.swift; sourceTree = "<group>"; };
-		F883095021B5D6D0005CFB9D /* Day12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day12.txt; sourceTree = "<group>"; };
-		F883095121B5D6D1005CFB9D /* Day25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day25.txt; sourceTree = "<group>"; };
-		F883095221B5D6D1005CFB9D /* Day06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day06.txt; sourceTree = "<group>"; };
-		F883095321B5D6D1005CFB9D /* Day19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day19.txt; sourceTree = "<group>"; };
-		F883095421B5D6D1005CFB9D /* Day22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day22.swift; sourceTree = "<group>"; };
-		F883095521B5D6D1005CFB9D /* Day18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day18.txt; sourceTree = "<group>"; };
-		F883095621B5D6D1005CFB9D /* Day16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
-		F883095721B5D6D1005CFB9D /* Day23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day23.txt; sourceTree = "<group>"; };
-		F883095821B5D6D1005CFB9D /* Day24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day24.txt; sourceTree = "<group>"; };
-		F883095921B5D6D1005CFB9D /* Day15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day15.txt; sourceTree = "<group>"; };
-		F883095A21B5D6D1005CFB9D /* Day14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day14.txt; sourceTree = "<group>"; };
-		F883095B21B5D6D1005CFB9D /* Day19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
-		F883095C21B5D6D1005CFB9D /* Day13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13.swift; sourceTree = "<group>"; };
-		F883095D21B5D6D2005CFB9D /* Day11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
-		F883095E21B5D6D2005CFB9D /* Day04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day04.txt; sourceTree = "<group>"; };
-		F883095F21B5D6D2005CFB9D /* Day21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day21.txt; sourceTree = "<group>"; };
-		F883096021B5D6D2005CFB9D /* Day08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day08.swift; sourceTree = "<group>"; };
-		F883096121B5D6D2005CFB9D /* Day07.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day07.swift; sourceTree = "<group>"; };
-		F883096221B5D6D2005CFB9D /* Day24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day24.swift; sourceTree = "<group>"; };
-		F883096321B5D6D2005CFB9D /* Day09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day09.txt; sourceTree = "<group>"; };
-		F883096421B5D6D2005CFB9D /* Day21.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21.swift; sourceTree = "<group>"; };
-		F883096521B5D6D2005CFB9D /* Day04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day04.swift; sourceTree = "<group>"; };
-		F883096621B5D6D3005CFB9D /* Day20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20.swift; sourceTree = "<group>"; };
-		F883096721B5D6D3005CFB9D /* Day09.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day09.swift; sourceTree = "<group>"; };
-		F883096821B5D6D3005CFB9D /* Day11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day11.txt; sourceTree = "<group>"; };
-		F883096921B5D6D3005CFB9D /* Day17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
-		F883096A21B5D6D3005CFB9D /* Day12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
-		F883096B21B5D6D3005CFB9D /* Day13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day13.txt; sourceTree = "<group>"; };
-		F883096C21B5D6D3005CFB9D /* Day22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day22.txt; sourceTree = "<group>"; };
-		F883096D21B5D6D3005CFB9D /* Day14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14.swift; sourceTree = "<group>"; };
-		F883096E21B5D6D4005CFB9D /* Day05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day05.txt; sourceTree = "<group>"; };
-		F883096F21B5D6D4005CFB9D /* Day15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15.swift; sourceTree = "<group>"; };
-		F883097021B5D6D4005CFB9D /* Day10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day10.txt; sourceTree = "<group>"; };
-		F883097121B5D6D4005CFB9D /* Day16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day16.txt; sourceTree = "<group>"; };
-		F883097221B5D6D4005CFB9D /* Day18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18.swift; sourceTree = "<group>"; };
-		F883097321B5D6D4005CFB9D /* Day17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day17.txt; sourceTree = "<group>"; };
+		F8D18BB825780C6D00EF7B06 /* AOCshared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AOCshared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D18BBA25780C6D00EF7B06 /* aoc_shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aoc_shared.h; sourceTree = "<group>"; };
+		F8D18BBB25780C6D00EF7B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D18BFA25780C9300EF7B06 /* AOC2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AOC2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D18BFC25780C9300EF7B06 /* aoc_2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aoc_2020.h; sourceTree = "<group>"; };
+		F8D18BFD25780C9300EF7B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D18C0225780C9400EF7B06 /* AOC2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D18C0925780C9400EF7B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D18C1E25780CCD00EF7B06 /* Day01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day01.txt; sourceTree = "<group>"; };
+		F8D18C1F25780CCD00EF7B06 /* Day01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
+		F8D18C2025780CCD00EF7B06 /* Day02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
+		F8D18C2125780CCD00EF7B06 /* Day02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day02.txt; sourceTree = "<group>"; };
+		F8D18C3325780CE900EF7B06 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests.swift; path = ../../2020/Tests.swift; sourceTree = "<group>"; };
+		F8D18C4225780D5D00EF7B06 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		F8D18C4325780D5D00EF7B06 /* Reader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F88308AE21B59F71005CFB9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F883090121B5B424005CFB9D /* Year2018.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F88308C221B59F73005CFB9D /* Frameworks */ = {
+		F8D18BB525780C6D00EF7B06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88308E921B5B424005CFB9D /* Frameworks */ = {
+		F8D18BF725780C9300EF7B06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D18C6525780DD000EF7B06 /* AOCshared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88308F121B5B424005CFB9D /* Frameworks */ = {
+		F8D18BFF25780C9400EF7B06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88308F521B5B424005CFB9D /* Year2018.framework in Frameworks */,
+				F8D18C0325780C9400EF7B06 /* AOC2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F88308A821B59F71005CFB9D = {
+		F8D18B8D25780C5000EF7B06 = {
 			isa = PBXGroup;
 			children = (
-				F88308B321B59F71005CFB9D /* AdventOfCode */,
-				F88308C821B59F73005CFB9D /* AdventOfCodeTests */,
-				F88308ED21B5B424005CFB9D /* Year2018 */,
-				F88308FA21B5B424005CFB9D /* Year2018Tests */,
-				F88308B221B59F71005CFB9D /* Products */,
+				F8D18BB925780C6D00EF7B06 /* AOCshared */,
+				F8D18BFB25780C9300EF7B06 /* AOC2020 */,
+				F8D18C0625780C9400EF7B06 /* AOC2020Tests */,
+				F8D18B9825780C5000EF7B06 /* Products */,
+				F8D18C6425780DD000EF7B06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F88308B221B59F71005CFB9D /* Products */ = {
+		F8D18B9825780C5000EF7B06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F88308B121B59F71005CFB9D /* AdventOfCode.app */,
-				F88308C521B59F73005CFB9D /* AdventOfCodeTests.xctest */,
-				F88308EC21B5B424005CFB9D /* Year2018.framework */,
-				F88308F421B5B424005CFB9D /* Year2018Tests.xctest */,
+				F8D18BB825780C6D00EF7B06 /* AOCshared.framework */,
+				F8D18BFA25780C9300EF7B06 /* AOC2020.framework */,
+				F8D18C0225780C9400EF7B06 /* AOC2020Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F88308B321B59F71005CFB9D /* AdventOfCode */ = {
+		F8D18BB925780C6D00EF7B06 /* AOCshared */ = {
 			isa = PBXGroup;
 			children = (
-				F88308B421B59F71005CFB9D /* AppDelegate.swift */,
-				F88308B621B59F71005CFB9D /* ViewController.swift */,
-				F88308B821B59F71005CFB9D /* Main.storyboard */,
-				F88308BB21B59F73005CFB9D /* Assets.xcassets */,
-				F88308BD21B59F73005CFB9D /* LaunchScreen.storyboard */,
-				F88308C021B59F73005CFB9D /* Info.plist */,
-				F88308E321B5B11B005CFB9D /* Extensions.swift */,
+				F8D18C4125780D0D00EF7B06 /* source */,
+				F8D18BBA25780C6D00EF7B06 /* aoc_shared.h */,
+				F8D18BBB25780C6D00EF7B06 /* Info.plist */,
 			);
-			path = AdventOfCode;
+			path = AOCshared;
 			sourceTree = "<group>";
 		};
-		F88308C821B59F73005CFB9D /* AdventOfCodeTests */ = {
+		F8D18BFB25780C9300EF7B06 /* AOC2020 */ = {
 			isa = PBXGroup;
 			children = (
-				F88308CB21B59F73005CFB9D /* Info.plist */,
+				F8D18C1D25780CB000EF7B06 /* source */,
+				F8D18BFC25780C9300EF7B06 /* aoc_2020.h */,
+				F8D18BFD25780C9300EF7B06 /* Info.plist */,
 			);
-			path = AdventOfCodeTests;
+			path = AOC2020;
 			sourceTree = "<group>";
 		};
-		F88308ED21B5B424005CFB9D /* Year2018 */ = {
+		F8D18C0625780C9400EF7B06 /* AOC2020Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F88308D621B59FE8005CFB9D /* Day01.swift */,
-				F883091021B5B540005CFB9D /* Day01.txt */,
-				F88308DB21B5A167005CFB9D /* Day02.swift */,
-				F883091821B5D2CC005CFB9D /* Day02.txt */,
-				F88308DF21B5A2FA005CFB9D /* Day03.swift */,
-				F883091A21B5D400005CFB9D /* Day03.txt */,
-				F883096521B5D6D2005CFB9D /* Day04.swift */,
-				F883095E21B5D6D2005CFB9D /* Day04.txt */,
-				F883094F21B5D6D0005CFB9D /* Day05.swift */,
-				F883096E21B5D6D4005CFB9D /* Day05.txt */,
-				F883094921B5D6D0005CFB9D /* Day06.swift */,
-				F883095221B5D6D1005CFB9D /* Day06.txt */,
-				F883096121B5D6D2005CFB9D /* Day07.swift */,
-				F883094C21B5D6D0005CFB9D /* Day07.txt */,
-				F883096021B5D6D2005CFB9D /* Day08.swift */,
-				F883094D21B5D6D0005CFB9D /* Day08.txt */,
-				F883096721B5D6D3005CFB9D /* Day09.swift */,
-				F883096321B5D6D2005CFB9D /* Day09.txt */,
-				F883094E21B5D6D0005CFB9D /* Day10.swift */,
-				F883097021B5D6D4005CFB9D /* Day10.txt */,
-				F883095D21B5D6D2005CFB9D /* Day11.swift */,
-				F883096821B5D6D3005CFB9D /* Day11.txt */,
-				F883096A21B5D6D3005CFB9D /* Day12.swift */,
-				F883095021B5D6D0005CFB9D /* Day12.txt */,
-				F883095C21B5D6D1005CFB9D /* Day13.swift */,
-				F883096B21B5D6D3005CFB9D /* Day13.txt */,
-				F883096D21B5D6D3005CFB9D /* Day14.swift */,
-				F883095A21B5D6D1005CFB9D /* Day14.txt */,
-				F883096F21B5D6D4005CFB9D /* Day15.swift */,
-				F883095921B5D6D1005CFB9D /* Day15.txt */,
-				F883095621B5D6D1005CFB9D /* Day16.swift */,
-				F883097121B5D6D4005CFB9D /* Day16.txt */,
-				F883096921B5D6D3005CFB9D /* Day17.swift */,
-				F883097321B5D6D4005CFB9D /* Day17.txt */,
-				F883097221B5D6D4005CFB9D /* Day18.swift */,
-				F883095521B5D6D1005CFB9D /* Day18.txt */,
-				F883095B21B5D6D1005CFB9D /* Day19.swift */,
-				F883095321B5D6D1005CFB9D /* Day19.txt */,
-				F883096621B5D6D3005CFB9D /* Day20.swift */,
-				F883094821B5D6D0005CFB9D /* Day20.txt */,
-				F883096421B5D6D2005CFB9D /* Day21.swift */,
-				F883095F21B5D6D2005CFB9D /* Day21.txt */,
-				F883095421B5D6D1005CFB9D /* Day22.swift */,
-				F883096C21B5D6D3005CFB9D /* Day22.txt */,
-				F883094B21B5D6D0005CFB9D /* Day23.swift */,
-				F883095721B5D6D1005CFB9D /* Day23.txt */,
-				F883096221B5D6D2005CFB9D /* Day24.swift */,
-				F883095821B5D6D1005CFB9D /* Day24.txt */,
-				F883094A21B5D6D0005CFB9D /* Day25.swift */,
-				F883095121B5D6D1005CFB9D /* Day25.txt */,
-				F88308EE21B5B424005CFB9D /* Year2018.h */,
-				F88308EF21B5B424005CFB9D /* Info.plist */,
-				F883091421B5B5E2005CFB9D /* Day.swift */,
-				F883091621B5B615005CFB9D /* Reader.swift */,
+				F8D18C3325780CE900EF7B06 /* Tests.swift */,
+				F8D18C0925780C9400EF7B06 /* Info.plist */,
 			);
-			path = Year2018;
+			path = AOC2020Tests;
 			sourceTree = "<group>";
 		};
-		F88308FA21B5B424005CFB9D /* Year2018Tests */ = {
+		F8D18C1D25780CB000EF7B06 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				F88308D921B5A041005CFB9D /* Day01Test.swift */,
-				F88308DD21B5A177005CFB9D /* Day02Test.swift */,
-				F88308E121B5A311005CFB9D /* Day03Test.swift */,
-				F883091C21B5D503005CFB9D /* Day04Test.swift */,
-				F883091E21B5D52F005CFB9D /* Day05Test.swift */,
-				F883092021B5D53B005CFB9D /* Day06Test.swift */,
-				F883092221B5D544005CFB9D /* Day07Test.swift */,
-				F883092421B5D54D005CFB9D /* Day08Test.swift */,
-				F883092621B5D555005CFB9D /* Day09Test.swift */,
-				F883092821B5D55C005CFB9D /* Day10Test.swift */,
-				F883092A21B5D564005CFB9D /* Day11Test.swift */,
-				F883092C21B5D56B005CFB9D /* Day12Test.swift */,
-				F883093021B5D57B005CFB9D /* Day14Test.swift */,
-				F883092E21B5D573005CFB9D /* Day13Test.swift */,
-				F883093221B5D583005CFB9D /* Day15Test.swift */,
-				F883093421B5D58D005CFB9D /* Day16Test.swift */,
-				F883093621B5D596005CFB9D /* Day17Test.swift */,
-				F883093821B5D59E005CFB9D /* Day18Test.swift */,
-				F883093A21B5D5A6005CFB9D /* Day19Test.swift */,
-				F883093C21B5D5AE005CFB9D /* Day20Test.swift */,
-				F883093E21B5D5B7005CFB9D /* Day21Test.swift */,
-				F883094021B5D5BF005CFB9D /* Day22Test.swift */,
-				F883094221B5D5C8005CFB9D /* Day23Test.swift */,
-				F883094421B5D5D1005CFB9D /* Day24Test.swift */,
-				F883094621B5D5D9005CFB9D /* Day25Test.swift */,
-				F88308FD21B5B424005CFB9D /* Info.plist */,
+				F8D18C1F25780CCD00EF7B06 /* Day01.swift */,
+				F8D18C1E25780CCD00EF7B06 /* Day01.txt */,
+				F8D18C2025780CCD00EF7B06 /* Day02.swift */,
+				F8D18C2125780CCD00EF7B06 /* Day02.txt */,
 			);
-			path = Year2018Tests;
+			name = source;
+			path = ../../2020;
+			sourceTree = "<group>";
+		};
+		F8D18C4125780D0D00EF7B06 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18C4225780D5D00EF7B06 /* Day.swift */,
+				F8D18C4325780D5D00EF7B06 /* Reader.swift */,
+			);
+			name = source;
+			path = ../../Shared;
+			sourceTree = "<group>";
+		};
+		F8D18C6425780DD000EF7B06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F88308E721B5B424005CFB9D /* Headers */ = {
+		F8D18BB325780C6D00EF7B06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88308FE21B5B424005CFB9D /* Year2018.h in Headers */,
+				F8D18BC825780C6D00EF7B06 /* aoc_shared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D18BF525780C9300EF7B06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D18C0A25780C9400EF7B06 /* aoc_2020.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F88308B021B59F71005CFB9D /* AdventOfCode */ = {
+		F8D18BB725780C6D00EF7B06 /* AOCshared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F88308CE21B59F73005CFB9D /* Build configuration list for PBXNativeTarget "AdventOfCode" */;
+			buildConfigurationList = F8D18BC925780C6D00EF7B06 /* Build configuration list for PBXNativeTarget "AOCshared" */;
 			buildPhases = (
-				F88308AD21B59F71005CFB9D /* Sources */,
-				F88308AE21B59F71005CFB9D /* Frameworks */,
-				F88308AF21B59F71005CFB9D /* Resources */,
-				F883090621B5B424005CFB9D /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F883090021B5B424005CFB9D /* PBXTargetDependency */,
-			);
-			name = AdventOfCode;
-			productName = AdventOfCode;
-			productReference = F88308B121B59F71005CFB9D /* AdventOfCode.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F88308C421B59F73005CFB9D /* AdventOfCodeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F88308D121B59F73005CFB9D /* Build configuration list for PBXNativeTarget "AdventOfCodeTests" */;
-			buildPhases = (
-				F88308C121B59F73005CFB9D /* Sources */,
-				F88308C221B59F73005CFB9D /* Frameworks */,
-				F88308C321B59F73005CFB9D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F88308C721B59F73005CFB9D /* PBXTargetDependency */,
-			);
-			name = AdventOfCodeTests;
-			productName = AdventOfCodeTests;
-			productReference = F88308C521B59F73005CFB9D /* AdventOfCodeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F88308EB21B5B424005CFB9D /* Year2018 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F883090321B5B424005CFB9D /* Build configuration list for PBXNativeTarget "Year2018" */;
-			buildPhases = (
-				F88308E721B5B424005CFB9D /* Headers */,
-				F88308E821B5B424005CFB9D /* Sources */,
-				F88308E921B5B424005CFB9D /* Frameworks */,
-				F88308EA21B5B424005CFB9D /* Resources */,
+				F8D18BB325780C6D00EF7B06 /* Headers */,
+				F8D18BB425780C6D00EF7B06 /* Sources */,
+				F8D18BB525780C6D00EF7B06 /* Frameworks */,
+				F8D18BB625780C6D00EF7B06 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Year2018;
-			productName = Year2018;
-			productReference = F88308EC21B5B424005CFB9D /* Year2018.framework */;
+			name = AOCshared;
+			productName = "aoc-shared";
+			productReference = F8D18BB825780C6D00EF7B06 /* AOCshared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F88308F321B5B424005CFB9D /* Year2018Tests */ = {
+		F8D18BF925780C9300EF7B06 /* AOC2020 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F883090721B5B424005CFB9D /* Build configuration list for PBXNativeTarget "Year2018Tests" */;
+			buildConfigurationList = F8D18C0B25780C9400EF7B06 /* Build configuration list for PBXNativeTarget "AOC2020" */;
 			buildPhases = (
-				F88308F021B5B424005CFB9D /* Sources */,
-				F88308F121B5B424005CFB9D /* Frameworks */,
-				F88308F221B5B424005CFB9D /* Resources */,
+				F8D18BF525780C9300EF7B06 /* Headers */,
+				F8D18BF625780C9300EF7B06 /* Sources */,
+				F8D18BF725780C9300EF7B06 /* Frameworks */,
+				F8D18BF825780C9300EF7B06 /* Resources */,
+				F8D18C6925780DD000EF7B06 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F88308F721B5B424005CFB9D /* PBXTargetDependency */,
-				F88308F921B5B424005CFB9D /* PBXTargetDependency */,
+				F8D18C6825780DD000EF7B06 /* PBXTargetDependency */,
 			);
-			name = Year2018Tests;
-			productName = Year2018Tests;
-			productReference = F88308F421B5B424005CFB9D /* Year2018Tests.xctest */;
+			name = AOC2020;
+			productName = "aoc-2020";
+			productReference = F8D18BFA25780C9300EF7B06 /* AOC2020.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8D18C0125780C9400EF7B06 /* AOC2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D18C0E25780C9400EF7B06 /* Build configuration list for PBXNativeTarget "AOC2020Tests" */;
+			buildPhases = (
+				F8D18BFE25780C9400EF7B06 /* Sources */,
+				F8D18BFF25780C9400EF7B06 /* Frameworks */,
+				F8D18C0025780C9400EF7B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D18C0525780C9400EF7B06 /* PBXTargetDependency */,
+			);
+			name = AOC2020Tests;
+			productName = "aoc-2020Tests";
+			productReference = F8D18C0225780C9400EF7B06 /* AOC2020Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F88308A921B59F71005CFB9D /* Project object */ = {
+		F8D18B8E25780C5000EF7B06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Gordon Tucker";
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					F88308B021B59F71005CFB9D = {
-						CreatedOnToolsVersion = 10.1;
+					F8D18BB725780C6D00EF7B06 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
-					F88308C421B59F73005CFB9D = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F88308B021B59F71005CFB9D;
+					F8D18BF925780C9300EF7B06 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
-					F88308EB21B5B424005CFB9D = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					F88308F321B5B424005CFB9D = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F88308B021B59F71005CFB9D;
+					F8D18C0125780C9400EF7B06 = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = F88308AC21B59F71005CFB9D /* Build configuration list for PBXProject "AdventOfCode" */;
+			buildConfigurationList = F8D18B9125780C5000EF7B06 /* Build configuration list for PBXProject "AdventOfCode" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -530,70 +284,36 @@
 				en,
 				Base,
 			);
-			mainGroup = F88308A821B59F71005CFB9D;
-			productRefGroup = F88308B221B59F71005CFB9D /* Products */;
+			mainGroup = F8D18B8D25780C5000EF7B06;
+			productRefGroup = F8D18B9825780C5000EF7B06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F88308B021B59F71005CFB9D /* AdventOfCode */,
-				F88308C421B59F73005CFB9D /* AdventOfCodeTests */,
-				F88308EB21B5B424005CFB9D /* Year2018 */,
-				F88308F321B5B424005CFB9D /* Year2018Tests */,
+				F8D18BB725780C6D00EF7B06 /* AOCshared */,
+				F8D18BF925780C9300EF7B06 /* AOC2020 */,
+				F8D18C0125780C9400EF7B06 /* AOC2020Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F88308AF21B59F71005CFB9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F88308BF21B59F73005CFB9D /* LaunchScreen.storyboard in Resources */,
-				F88308BC21B59F73005CFB9D /* Assets.xcassets in Resources */,
-				F88308BA21B59F71005CFB9D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F88308C321B59F73005CFB9D /* Resources */ = {
+		F8D18BB625780C6D00EF7B06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88308EA21B5B424005CFB9D /* Resources */ = {
+		F8D18BF825780C9300EF7B06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F883091B21B5D400005CFB9D /* Day03.txt in Resources */,
-				F883098521B5D6D5005CFB9D /* Day15.txt in Resources */,
-				F883098621B5D6D5005CFB9D /* Day14.txt in Resources */,
-				F883097821B5D6D5005CFB9D /* Day07.txt in Resources */,
-				F883098321B5D6D5005CFB9D /* Day23.txt in Resources */,
-				F883091121B5B540005CFB9D /* Day01.txt in Resources */,
-				F883097C21B5D6D5005CFB9D /* Day12.txt in Resources */,
-				F883097D21B5D6D5005CFB9D /* Day25.txt in Resources */,
-				F883097E21B5D6D5005CFB9D /* Day06.txt in Resources */,
-				F883099721B5D6D5005CFB9D /* Day13.txt in Resources */,
-				F883098B21B5D6D5005CFB9D /* Day21.txt in Resources */,
-				F883099821B5D6D5005CFB9D /* Day22.txt in Resources */,
-				F883098A21B5D6D5005CFB9D /* Day04.txt in Resources */,
-				F883091921B5D2CC005CFB9D /* Day02.txt in Resources */,
-				F883097F21B5D6D5005CFB9D /* Day19.txt in Resources */,
-				F883097421B5D6D5005CFB9D /* Day20.txt in Resources */,
-				F883099F21B5D6D5005CFB9D /* Day17.txt in Resources */,
-				F883098F21B5D6D5005CFB9D /* Day09.txt in Resources */,
-				F883099421B5D6D5005CFB9D /* Day11.txt in Resources */,
-				F883099A21B5D6D5005CFB9D /* Day05.txt in Resources */,
-				F883098121B5D6D5005CFB9D /* Day18.txt in Resources */,
-				F883099D21B5D6D5005CFB9D /* Day16.txt in Resources */,
-				F883097921B5D6D5005CFB9D /* Day08.txt in Resources */,
-				F883099C21B5D6D5005CFB9D /* Day10.txt in Resources */,
-				F883098421B5D6D5005CFB9D /* Day24.txt in Resources */,
+				F8D18C2225780CCD00EF7B06 /* Day01.txt in Resources */,
+				F8D18C2525780CCD00EF7B06 /* Day02.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88308F221B5B424005CFB9D /* Resources */ = {
+		F8D18C0025780C9400EF7B06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -603,135 +323,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F88308AD21B59F71005CFB9D /* Sources */ = {
+		F8D18BB425780C6D00EF7B06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88308E421B5B11B005CFB9D /* Extensions.swift in Sources */,
-				F88308B721B59F71005CFB9D /* ViewController.swift in Sources */,
-				F88308B521B59F71005CFB9D /* AppDelegate.swift in Sources */,
+				F8D18C4525780D5D00EF7B06 /* Reader.swift in Sources */,
+				F8D18C4425780D5D00EF7B06 /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88308C121B59F73005CFB9D /* Sources */ = {
+		F8D18BF625780C9300EF7B06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D18C2425780CCD00EF7B06 /* Day02.swift in Sources */,
+				F8D18C2325780CCD00EF7B06 /* Day01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F88308E821B5B424005CFB9D /* Sources */ = {
+		F8D18BFE25780C9400EF7B06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F883090A21B5B42F005CFB9D /* Day02.swift in Sources */,
-				F883097721B5D6D5005CFB9D /* Day23.swift in Sources */,
-				F883098821B5D6D5005CFB9D /* Day13.swift in Sources */,
-				F883097A21B5D6D5005CFB9D /* Day10.swift in Sources */,
-				F883099121B5D6D5005CFB9D /* Day04.swift in Sources */,
-				F883090B21B5B42F005CFB9D /* Day03.swift in Sources */,
-				F883098D21B5D6D5005CFB9D /* Day07.swift in Sources */,
-				F883098021B5D6D5005CFB9D /* Day22.swift in Sources */,
-				F883097521B5D6D5005CFB9D /* Day06.swift in Sources */,
-				F883099921B5D6D5005CFB9D /* Day14.swift in Sources */,
-				F883097B21B5D6D5005CFB9D /* Day05.swift in Sources */,
-				F883091721B5B616005CFB9D /* Reader.swift in Sources */,
-				F883099221B5D6D5005CFB9D /* Day20.swift in Sources */,
-				F883098E21B5D6D5005CFB9D /* Day24.swift in Sources */,
-				F883091521B5B5E2005CFB9D /* Day.swift in Sources */,
-				F883090C21B5B42F005CFB9D /* Day01.swift in Sources */,
-				F883099E21B5D6D5005CFB9D /* Day18.swift in Sources */,
-				F883099521B5D6D5005CFB9D /* Day17.swift in Sources */,
-				F883098921B5D6D5005CFB9D /* Day11.swift in Sources */,
-				F883099021B5D6D5005CFB9D /* Day21.swift in Sources */,
-				F883098C21B5D6D5005CFB9D /* Day08.swift in Sources */,
-				F883099B21B5D6D5005CFB9D /* Day15.swift in Sources */,
-				F883098721B5D6D5005CFB9D /* Day19.swift in Sources */,
-				F883097621B5D6D5005CFB9D /* Day25.swift in Sources */,
-				F883098221B5D6D5005CFB9D /* Day16.swift in Sources */,
-				F883099321B5D6D5005CFB9D /* Day09.swift in Sources */,
-				F883099621B5D6D5005CFB9D /* Day12.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F88308F021B5B424005CFB9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F883092521B5D54D005CFB9D /* Day08Test.swift in Sources */,
-				F883093121B5D57B005CFB9D /* Day14Test.swift in Sources */,
-				F883090D21B5B451005CFB9D /* Day02Test.swift in Sources */,
-				F883093721B5D596005CFB9D /* Day17Test.swift in Sources */,
-				F883093321B5D583005CFB9D /* Day15Test.swift in Sources */,
-				F883093F21B5D5B7005CFB9D /* Day21Test.swift in Sources */,
-				F883090F21B5B451005CFB9D /* Day03Test.swift in Sources */,
-				F883092F21B5D573005CFB9D /* Day13Test.swift in Sources */,
-				F883094321B5D5C8005CFB9D /* Day23Test.swift in Sources */,
-				F883091D21B5D503005CFB9D /* Day04Test.swift in Sources */,
-				F883091F21B5D52F005CFB9D /* Day05Test.swift in Sources */,
-				F883092921B5D55C005CFB9D /* Day10Test.swift in Sources */,
-				F883093D21B5D5AE005CFB9D /* Day20Test.swift in Sources */,
-				F883094721B5D5D9005CFB9D /* Day25Test.swift in Sources */,
-				F883092321B5D544005CFB9D /* Day07Test.swift in Sources */,
-				F883092D21B5D56B005CFB9D /* Day12Test.swift in Sources */,
-				F883092721B5D555005CFB9D /* Day09Test.swift in Sources */,
-				F883092121B5D53B005CFB9D /* Day06Test.swift in Sources */,
-				F883094121B5D5BF005CFB9D /* Day22Test.swift in Sources */,
-				F883092B21B5D564005CFB9D /* Day11Test.swift in Sources */,
-				F883090E21B5B451005CFB9D /* Day01Test.swift in Sources */,
-				F883093521B5D58D005CFB9D /* Day16Test.swift in Sources */,
-				F883093921B5D59E005CFB9D /* Day18Test.swift in Sources */,
-				F883094521B5D5D1005CFB9D /* Day24Test.swift in Sources */,
-				F883093B21B5D5A6005CFB9D /* Day19Test.swift in Sources */,
+				F8D18C3425780CE900EF7B06 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F88308C721B59F73005CFB9D /* PBXTargetDependency */ = {
+		F8D18C0525780C9400EF7B06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F88308B021B59F71005CFB9D /* AdventOfCode */;
-			targetProxy = F88308C621B59F73005CFB9D /* PBXContainerItemProxy */;
+			target = F8D18BF925780C9300EF7B06 /* AOC2020 */;
+			targetProxy = F8D18C0425780C9400EF7B06 /* PBXContainerItemProxy */;
 		};
-		F88308F721B5B424005CFB9D /* PBXTargetDependency */ = {
+		F8D18C6825780DD000EF7B06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F88308EB21B5B424005CFB9D /* Year2018 */;
-			targetProxy = F88308F621B5B424005CFB9D /* PBXContainerItemProxy */;
-		};
-		F88308F921B5B424005CFB9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F88308B021B59F71005CFB9D /* AdventOfCode */;
-			targetProxy = F88308F821B5B424005CFB9D /* PBXContainerItemProxy */;
-		};
-		F883090021B5B424005CFB9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F88308EB21B5B424005CFB9D /* Year2018 */;
-			targetProxy = F88308FF21B5B424005CFB9D /* PBXContainerItemProxy */;
+			target = F8D18BB725780C6D00EF7B06 /* AOCshared */;
+			targetProxy = F8D18C6725780DD000EF7B06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		F88308B821B59F71005CFB9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F88308B921B59F71005CFB9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F88308BD21B59F73005CFB9D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F88308BE21B59F73005CFB9D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		F88308CC21B59F73005CFB9D /* Debug */ = {
+		F8D18BA925780C5000EF7B06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -757,14 +391,15 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -782,17 +417,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F88308CD21B59F73005CFB9D /* Release */ = {
+		F8D18BAA25780C5000EF7B06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -818,14 +455,15 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -837,241 +475,198 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F88308CF21B59F73005CFB9D /* Debug */ = {
+		F8D18BCA25780C6D00EF7B06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 478Z685Y37;
-				INFOPLIST_FILE = AdventOfCode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.AdventOfCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F88308D021B59F73005CFB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 478Z685Y37;
-				INFOPLIST_FILE = AdventOfCode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.AdventOfCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F88308D221B59F73005CFB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 478Z685Y37;
-				INFOPLIST_FILE = AdventOfCodeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.AdventOfCodeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode.app/AdventOfCode";
-			};
-			name = Debug;
-		};
-		F88308D321B59F73005CFB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 478Z685Y37;
-				INFOPLIST_FILE = AdventOfCodeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.AdventOfCodeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode.app/AdventOfCode";
-			};
-			name = Release;
-		};
-		F883090421B5B424005CFB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 478Z685Y37;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Year2018/Info.plist;
+				INFOPLIST_FILE = AOCshared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.Year2018;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordontucker.aoc-shared";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F883090521B5B424005CFB9D /* Release */ = {
+		F8D18BCB25780C6D00EF7B06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 478Z685Y37;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Year2018/Info.plist;
+				INFOPLIST_FILE = AOCshared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.Year2018;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordontucker.aoc-shared";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F883090821B5B424005CFB9D /* Debug */ = {
+		F8D18C0C25780C9400EF7B06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 478Z685Y37;
-				INFOPLIST_FILE = Year2018Tests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AOC2020/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.Year2018Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordontucker.aoc-2020";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode.app/AdventOfCode";
 			};
 			name = Debug;
 		};
-		F883090921B5B424005CFB9D /* Release */ = {
+		F8D18C0D25780C9400EF7B06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 478Z685Y37;
-				INFOPLIST_FILE = Year2018Tests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AOC2020/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gordontucker.Year2018Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordontucker.aoc-2020";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode.app/AdventOfCode";
+			};
+			name = Release;
+		};
+		F8D18C0F25780C9400EF7B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478Z685Y37;
+				INFOPLIST_FILE = AOC2020Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordontucker.aoc-2020Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D18C1025780C9400EF7B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478Z685Y37;
+				INFOPLIST_FILE = AOC2020Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordontucker.aoc-2020Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F88308AC21B59F71005CFB9D /* Build configuration list for PBXProject "AdventOfCode" */ = {
+		F8D18B9125780C5000EF7B06 /* Build configuration list for PBXProject "AdventOfCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F88308CC21B59F73005CFB9D /* Debug */,
-				F88308CD21B59F73005CFB9D /* Release */,
+				F8D18BA925780C5000EF7B06 /* Debug */,
+				F8D18BAA25780C5000EF7B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F88308CE21B59F73005CFB9D /* Build configuration list for PBXNativeTarget "AdventOfCode" */ = {
+		F8D18BC925780C6D00EF7B06 /* Build configuration list for PBXNativeTarget "AOCshared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F88308CF21B59F73005CFB9D /* Debug */,
-				F88308D021B59F73005CFB9D /* Release */,
+				F8D18BCA25780C6D00EF7B06 /* Debug */,
+				F8D18BCB25780C6D00EF7B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F88308D121B59F73005CFB9D /* Build configuration list for PBXNativeTarget "AdventOfCodeTests" */ = {
+		F8D18C0B25780C9400EF7B06 /* Build configuration list for PBXNativeTarget "AOC2020" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F88308D221B59F73005CFB9D /* Debug */,
-				F88308D321B59F73005CFB9D /* Release */,
+				F8D18C0C25780C9400EF7B06 /* Debug */,
+				F8D18C0D25780C9400EF7B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F883090321B5B424005CFB9D /* Build configuration list for PBXNativeTarget "Year2018" */ = {
+		F8D18C0E25780C9400EF7B06 /* Build configuration list for PBXNativeTarget "AOC2020Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F883090421B5B424005CFB9D /* Debug */,
-				F883090521B5B424005CFB9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F883090721B5B424005CFB9D /* Build configuration list for PBXNativeTarget "Year2018Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F883090821B5B424005CFB9D /* Debug */,
-				F883090921B5B424005CFB9D /* Release */,
+				F8D18C0F25780C9400EF7B06 /* Debug */,
+				F8D18C1025780C9400EF7B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F88308A921B59F71005CFB9D /* Project object */;
+	rootObject = F8D18B8E25780C5000EF7B06 /* Project object */;
 }
