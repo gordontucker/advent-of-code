@@ -31,6 +31,23 @@ public extension Reader {
     func read<T>(_ map: (String) -> T?) -> [T] {
         return self.readStrings().compactMap(map)
     }
+    
+    func readStringGroups(seperatedBy: String = "") -> [[String]] {
+        var groups: [[String]] = []
+        var group: [String] = []
+        while let nextLine = readString() {
+            if nextLine == seperatedBy, group.count > 0 {
+                groups.append(group)
+                group = []
+            } else {
+                group.append(nextLine)
+            }
+        }
+        if group.count > 0 {
+            groups.append(group)
+        }
+        return groups
+    }
 }
 
 open class FileReader: Reader {

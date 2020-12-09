@@ -13,6 +13,8 @@
 		F8B81861257ED235007B1EED /* Day04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8B8185D257ED235007B1EED /* Day04.txt */; };
 		F8B81CD025814E00007B1EED /* Day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B81CCE25814E00007B1EED /* Day05.swift */; };
 		F8B81CD125814E00007B1EED /* Day05.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8B81CCF25814E00007B1EED /* Day05.txt */; };
+		F8B81CDE258188EB007B1EED /* Day06.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8B81CDC258188EB007B1EED /* Day06.txt */; };
+		F8B81CDF258188EB007B1EED /* Day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B81CDD258188EB007B1EED /* Day06.swift */; };
 		F8D18BC825780C6D00EF7B06 /* aoc_shared.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D18BBA25780C6D00EF7B06 /* aoc_shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D18C0325780C9400EF7B06 /* AOC2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18BFA25780C9300EF7B06 /* AOC2020.framework */; };
 		F8D18C0A25780C9400EF7B06 /* aoc_2020.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D18BFC25780C9300EF7B06 /* aoc_2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,6 +67,8 @@
 		F8B8185D257ED235007B1EED /* Day04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day04.txt; sourceTree = "<group>"; };
 		F8B81CCE25814E00007B1EED /* Day05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day05.swift; sourceTree = "<group>"; };
 		F8B81CCF25814E00007B1EED /* Day05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day05.txt; sourceTree = "<group>"; };
+		F8B81CDC258188EB007B1EED /* Day06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day06.txt; sourceTree = "<group>"; };
+		F8B81CDD258188EB007B1EED /* Day06.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day06.swift; sourceTree = "<group>"; };
 		F8D18BB825780C6D00EF7B06 /* AOCshared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AOCshared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D18BBA25780C6D00EF7B06 /* aoc_shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aoc_shared.h; sourceTree = "<group>"; };
 		F8D18BBB25780C6D00EF7B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 		F8D18C1D25780CB000EF7B06 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				F8B81CDD258188EB007B1EED /* Day06.swift */,
+				F8B81CDC258188EB007B1EED /* Day06.txt */,
 				F8D18C1F25780CCD00EF7B06 /* Day01.swift */,
 				F8D18C1E25780CCD00EF7B06 /* Day01.txt */,
 				F8D18C2025780CCD00EF7B06 /* Day02.swift */,
@@ -331,6 +337,7 @@
 				F8B81861257ED235007B1EED /* Day04.txt in Resources */,
 				F8D18C2525780CCD00EF7B06 /* Day02.txt in Resources */,
 				F8B8185E257ED235007B1EED /* Day03.txt in Resources */,
+				F8B81CDE258188EB007B1EED /* Day06.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +366,7 @@
 			files = (
 				F8B81CD025814E00007B1EED /* Day05.swift in Sources */,
 				F8D18C2425780CCD00EF7B06 /* Day02.swift in Sources */,
+				F8B81CDF258188EB007B1EED /* Day06.swift in Sources */,
 				F8D18C2325780CCD00EF7B06 /* Day01.swift in Sources */,
 				F8B8185F257ED235007B1EED /* Day04.swift in Sources */,
 				F8B81860257ED235007B1EED /* Day03.swift in Sources */,

@@ -40,6 +40,10 @@ class aoc_2020Tests: XCTestCase {
             let day5 = Day05()
             XCTAssertEqual(996, day5.part1())
             XCTAssertEqual(671, day5.part2())
+            
+            let day6 = Day06()
+            XCTAssertEqual(6457, day6.part1())
+            XCTAssertEqual(3260, day6.part2())
         }
     }
     
@@ -123,4 +127,25 @@ class aoc_2020Tests: XCTestCase {
         XCTAssertEqual(820, Day05.parseBoardingPass("BBFFBBFRLL"))
     }
     
+    func testDay06() {
+        let tester = Day06([
+            "abc",
+            "",
+            "a",
+            "b",
+            "c",
+            "",
+            "ab",
+            "ac",
+            "",
+            "a",
+            "a",
+            "a",
+            "a",
+            "",
+            "b"
+        ])
+        XCTAssertEqual(11, tester.part1())
+        XCTAssertEqual(6, tester.part2())
+    }
 }
