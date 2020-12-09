@@ -13,6 +13,7 @@ public class Day07: Day {
     class Bag {
         public var attributes: String
         
+        var count: Int?
         public var contains: [(quantity: Int, attributes: String)]
         
         init(_ line: String) {
@@ -42,7 +43,10 @@ public class Day07: Day {
         }
         
         func count(quantity: Int, map: [String: Bag]) -> Int {
-            let count = self.contains.reduce(0, { $0 + map[$1.attributes]!.count(quantity: $1.quantity, map: map) })
+            guard let count = self.count else {
+                self.count = self.contains.reduce(0, { $0 + map[$1.attributes]!.count(quantity: $1.quantity, map: map) })
+                return self.count(quantity: quantity, map: map)
+            }
             
             return (count + 1) * quantity
         }
