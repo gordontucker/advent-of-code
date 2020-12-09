@@ -44,6 +44,22 @@ class aoc_2020Tests: XCTestCase {
             let day6 = Day06()
             XCTAssertEqual(6457, day6.part1())
             XCTAssertEqual(3260, day6.part2())
+            
+            let day7 = Day07()
+            XCTAssertEqual(172, day7.part1())
+            XCTAssertEqual(39645, day7.part2())
+            
+            let day8 = Day08()
+            XCTAssertEqual(nil, day8.part1())
+            XCTAssertEqual(nil, day8.part2())
+            
+            let day9 = Day09()
+            XCTAssertEqual(nil, day9.part1())
+            XCTAssertEqual(nil, day9.part2())
+            
+            let day10 = Day10()
+            XCTAssertEqual(nil, day10.part1())
+            XCTAssertEqual(nil, day10.part2())
         }
     }
     
@@ -147,5 +163,22 @@ class aoc_2020Tests: XCTestCase {
         ])
         XCTAssertEqual(11, tester.part1())
         XCTAssertEqual(6, tester.part2())
+    }
+    
+    func testDay07() {
+        let tester = Day07([
+            "light red bags contain 1 bright white bag, 2 muted yellow bags.",
+            "dark orange bags contain 3 bright white bags, 4 muted yellow bags.",
+            "bright white bags contain 1 shiny gold bag.",
+            "muted yellow bags contain 2 shiny gold bags, 9 faded blue bags.",
+            "shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.",
+            "dark olive bags contain 3 faded blue bags, 4 dotted black bags.",
+            "vibrant plum bags contain 5 faded blue bags, 6 dotted black bags.",
+            "faded blue bags contain no other bags.",
+            "dotted black bags contain no other bags."
+        ])
+        
+        XCTAssertEqual(4, tester.part1())
+        XCTAssertEqual(32, tester.part2())
     }
 }
