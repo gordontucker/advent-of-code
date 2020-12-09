@@ -43,17 +43,4 @@ public class Day03: Day {
         
         return treeCount
     }
-    
-//    public func part2() -> Int? {
-//        let ordered = self.numbers.sorted()
-//        for a in ordered {
-//            for b in ordered.dropFirst() {
-//                let c = 2020 - (a + b)
-//                if numbers.contains(c) {
-//                    return a * b * c
-//                }
-//            }
-//        }
-//        return nil
-//    }
 }

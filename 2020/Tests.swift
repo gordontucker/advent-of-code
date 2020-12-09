@@ -36,6 +36,10 @@ class aoc_2020Tests: XCTestCase {
             let day4 = Day04()
             XCTAssertEqual(190, day4.part1())
             XCTAssertEqual(121, day4.part2())
+            
+            let day5 = Day05()
+            XCTAssertEqual(996, day5.part1())
+            XCTAssertEqual(671, day5.part2())
         }
     }
     
@@ -110,6 +114,13 @@ class aoc_2020Tests: XCTestCase {
     }
     
     func testDay05() {
+//        : row 70, column 7, seat ID 567.
+//        : row 14, column 7, seat ID 119.
+//        : row 102, column 4, seat ID 820.
+        XCTAssertEqual(357, Day05.parseBoardingPass("FBFBBFFRLR"))
+        XCTAssertEqual(567, Day05.parseBoardingPass("BFFFBBFRRR"))
+        XCTAssertEqual(119, Day05.parseBoardingPass("FFFBBBFRRR"))
+        XCTAssertEqual(820, Day05.parseBoardingPass("BBFFBBFRLL"))
     }
     
 }
