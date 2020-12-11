@@ -20,18 +20,18 @@ public class Day06: Day {
     }
     
     public func part1() -> Int? {
-        var groupAnswers: [Set<String>] = []
+        var groupAnswers: [Set<Character>] = []
         for group in groups {
-            groupAnswers.append(Set(group.joined().filter({ $0.isLetter }).map({ String($0) })))
+            groupAnswers.append(Set(group.joined().filter({ $0.isLetter })))
         }
         return groupAnswers.reduce(0, { $0 + $1.count })
     }
     
     public func part2() -> Int? {
-        var groupAnswers: [Set<String>] = []
+        var groupAnswers: [Set<Character>] = []
         for group in groups {
-            var answers: [Set<String>] = group.map({
-                Set($0.filter({ $0.isLetter }).map({ String($0) }))
+            var answers: [Set<Character>] = group.map({
+                Set($0.filter({ $0.isLetter }))
             })
             
             var intersectedAnswers = answers.removeFirst()

@@ -50,12 +50,12 @@ class aoc_2020Tests: XCTestCase {
             XCTAssertEqual(39645, day7.part2())
             
             let day8 = Day08()
-            XCTAssertEqual(nil, day8.part1())
-            XCTAssertEqual(nil, day8.part2())
+            XCTAssertEqual(1331, day8.part1())
+            XCTAssertEqual(1121, day8.part2())
             
             let day9 = Day09()
-            XCTAssertEqual(nil, day9.part1())
-            XCTAssertEqual(nil, day9.part2())
+            XCTAssertEqual(22477624, day9.part1())
+            XCTAssertEqual(2980044, day9.part2(find: 22477624))
             
             let day10 = Day10()
             XCTAssertEqual(nil, day10.part1())
@@ -180,5 +180,50 @@ class aoc_2020Tests: XCTestCase {
         
         XCTAssertEqual(4, tester.part1())
         XCTAssertEqual(32, tester.part2())
+    }
+    
+    func testDay08() {
+        let tester = Day08([
+            "nop +0",
+            "acc +1",
+            "jmp +4",
+            "acc +3",
+            "jmp -3",
+            "acc -99",
+            "acc +1",
+            "jmp -4",
+            "acc +6"
+        ])
+        
+        XCTAssertEqual(5, tester.part1())
+        XCTAssertEqual(8, tester.part2())
+    }
+    
+    func testDay09() {
+        let tester = Day09([
+            "35",
+            "20",
+            "15",
+            "25",
+            "47",
+            "40",
+            "62",
+            "55",
+            "65",
+            "95",
+            "102",
+            "117",
+            "150",
+            "182",
+            "127",
+            "219",
+            "299",
+            "277",
+            "309",
+            "576"
+        ])
+        
+        XCTAssertEqual(127, tester.part1(preamble: 5))
+        XCTAssertEqual(62, tester.part2(find: 127))
     }
 }
