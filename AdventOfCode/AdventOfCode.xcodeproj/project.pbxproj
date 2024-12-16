@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471A47282CFF9D0C00D08162 /* AOC2024.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471A47202CFF9D0C00D08162 /* AOC2024.framework */; };
+		471A472D2CFF9D0C00D08162 /* AOC2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A472C2CFF9D0C00D08162 /* AOC2024Tests.swift */; };
+		471A472E2CFF9D0C00D08162 /* AOC2024.h in Headers */ = {isa = PBXBuildFile; fileRef = 471A47222CFF9D0C00D08162 /* AOC2024.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		471A47352CFF9D1400D08162 /* AOCshared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18BB825780C6D00EF7B06 /* AOCshared.framework */; };
+		471A47362CFF9D1400D08162 /* AOCshared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18BB825780C6D00EF7B06 /* AOCshared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		471A474E2CFF9D3900D08162 /* Day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A473D2CFF9D3800D08162 /* Day05.swift */; };
+		471A474F2CFF9D3900D08162 /* Day08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A47432CFF9D3900D08162 /* Day08.swift */; };
+		471A47502CFF9D3900D08162 /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A474A2CFF9D3900D08162 /* Day10.swift */; };
+		471A47512CFF9D3900D08162 /* Day09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A474C2CFF9D3900D08162 /* Day09.swift */; };
+		471A47522CFF9D3900D08162 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A47412CFF9D3900D08162 /* Day01.swift */; };
+		471A47532CFF9D3900D08162 /* Day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A47462CFF9D3900D08162 /* Day03.swift */; };
+		471A47542CFF9D3900D08162 /* Day07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A47472CFF9D3900D08162 /* Day07.swift */; };
+		471A47552CFF9D3900D08162 /* Day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A47442CFF9D3900D08162 /* Day04.swift */; };
+		471A47562CFF9D3900D08162 /* Day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A473B2CFF9D3800D08162 /* Day06.swift */; };
+		471A47572CFF9D3900D08162 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A473F2CFF9D3800D08162 /* Day02.swift */; };
+		471A47592CFFAFF900D08162 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A47582CFFAFF900D08162 /* StringExtensions.swift */; };
 		F8B8185E257ED235007B1EED /* Day03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8B8185A257ED235007B1EED /* Day03.txt */; };
 		F8B8185F257ED235007B1EED /* Day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8185B257ED235007B1EED /* Day04.swift */; };
 		F8B81860257ED235007B1EED /* Day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8185C257ED235007B1EED /* Day03.swift */; };
@@ -38,6 +54,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		471A47292CFF9D0C00D08162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D18B8E25780C5000EF7B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471A471F2CFF9D0C00D08162;
+			remoteInfo = AOC2024;
+		};
+		471A47372CFF9D1400D08162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D18B8E25780C5000EF7B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D18BB725780C6D00EF7B06;
+			remoteInfo = AOCshared;
+		};
 		F8D18C0425780C9400EF7B06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F8D18B8E25780C5000EF7B06 /* Project object */;
@@ -55,6 +85,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		471A47392CFF9D1400D08162 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				471A47362CFF9D1400D08162 /* AOCshared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8D18C6925780DD000EF7B06 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,6 +110,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		471A47202CFF9D0C00D08162 /* AOC2024.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AOC2024.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		471A47222CFF9D0C00D08162 /* AOC2024.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOC2024.h; sourceTree = "<group>"; };
+		471A47272CFF9D0C00D08162 /* AOC2024Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2024Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471A472C2CFF9D0C00D08162 /* AOC2024Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2024Tests.swift; sourceTree = "<group>"; };
+		471A473A2CFF9D3800D08162 /* Day01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day01.txt; sourceTree = "<group>"; };
+		471A473B2CFF9D3800D08162 /* Day06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day06.swift; sourceTree = "<group>"; };
+		471A473C2CFF9D3800D08162 /* Day05.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day05.txt; sourceTree = "<group>"; };
+		471A473D2CFF9D3800D08162 /* Day05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day05.swift; sourceTree = "<group>"; };
+		471A473E2CFF9D3800D08162 /* Day03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day03.txt; sourceTree = "<group>"; };
+		471A473F2CFF9D3800D08162 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
+		471A47402CFF9D3800D08162 /* Day07.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day07.txt; sourceTree = "<group>"; };
+		471A47412CFF9D3900D08162 /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
+		471A47422CFF9D3900D08162 /* Day02.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day02.txt; sourceTree = "<group>"; };
+		471A47432CFF9D3900D08162 /* Day08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day08.swift; sourceTree = "<group>"; };
+		471A47442CFF9D3900D08162 /* Day04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day04.swift; sourceTree = "<group>"; };
+		471A47452CFF9D3900D08162 /* Day04.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day04.txt; sourceTree = "<group>"; };
+		471A47462CFF9D3900D08162 /* Day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day03.swift; sourceTree = "<group>"; };
+		471A47472CFF9D3900D08162 /* Day07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day07.swift; sourceTree = "<group>"; };
+		471A47482CFF9D3900D08162 /* Day08.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day08.txt; sourceTree = "<group>"; };
+		471A47492CFF9D3900D08162 /* Day09.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day09.txt; sourceTree = "<group>"; };
+		471A474A2CFF9D3900D08162 /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
+		471A474B2CFF9D3900D08162 /* Day10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day10.txt; sourceTree = "<group>"; };
+		471A474C2CFF9D3900D08162 /* Day09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day09.swift; sourceTree = "<group>"; };
+		471A474D2CFF9D3900D08162 /* Day06.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day06.txt; sourceTree = "<group>"; };
+		471A47582CFFAFF900D08162 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		F8B8185A257ED235007B1EED /* Day03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day03.txt; sourceTree = "<group>"; };
 		F8B8185B257ED235007B1EED /* Day04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day04.swift; sourceTree = "<group>"; };
 		F8B8185C257ED235007B1EED /* Day03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day03.swift; sourceTree = "<group>"; };
@@ -103,6 +169,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		471A471D2CFF9D0C00D08162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471A47352CFF9D1400D08162 /* AOCshared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471A47242CFF9D0C00D08162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471A47282CFF9D0C00D08162 /* AOC2024.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8D18BB525780C6D00EF7B06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,12 +211,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471A47212CFF9D0C00D08162 /* AOC2024 */ = {
+			isa = PBXGroup;
+			children = (
+				471A47412CFF9D3900D08162 /* Day01.swift */,
+				471A473A2CFF9D3800D08162 /* Day01.txt */,
+				471A473F2CFF9D3800D08162 /* Day02.swift */,
+				471A47422CFF9D3900D08162 /* Day02.txt */,
+				471A47462CFF9D3900D08162 /* Day03.swift */,
+				471A473E2CFF9D3800D08162 /* Day03.txt */,
+				471A47442CFF9D3900D08162 /* Day04.swift */,
+				471A47452CFF9D3900D08162 /* Day04.txt */,
+				471A473D2CFF9D3800D08162 /* Day05.swift */,
+				471A473C2CFF9D3800D08162 /* Day05.txt */,
+				471A473B2CFF9D3800D08162 /* Day06.swift */,
+				471A474D2CFF9D3900D08162 /* Day06.txt */,
+				471A47472CFF9D3900D08162 /* Day07.swift */,
+				471A47402CFF9D3800D08162 /* Day07.txt */,
+				471A47432CFF9D3900D08162 /* Day08.swift */,
+				471A47482CFF9D3900D08162 /* Day08.txt */,
+				471A474C2CFF9D3900D08162 /* Day09.swift */,
+				471A47492CFF9D3900D08162 /* Day09.txt */,
+				471A474A2CFF9D3900D08162 /* Day10.swift */,
+				471A474B2CFF9D3900D08162 /* Day10.txt */,
+				471A47222CFF9D0C00D08162 /* AOC2024.h */,
+			);
+			path = AOC2024;
+			sourceTree = "<group>";
+		};
+		471A472B2CFF9D0C00D08162 /* AOC2024Tests */ = {
+			isa = PBXGroup;
+			children = (
+				471A472C2CFF9D0C00D08162 /* AOC2024Tests.swift */,
+			);
+			path = AOC2024Tests;
+			sourceTree = "<group>";
+		};
 		F8D18B8D25780C5000EF7B06 = {
 			isa = PBXGroup;
 			children = (
 				F8D18BB925780C6D00EF7B06 /* AOCshared */,
 				F8D18BFB25780C9300EF7B06 /* AOC2020 */,
 				F8D18C0625780C9400EF7B06 /* AOC2020Tests */,
+				471A47212CFF9D0C00D08162 /* AOC2024 */,
+				471A472B2CFF9D0C00D08162 /* AOC2024Tests */,
 				F8D18B9825780C5000EF7B06 /* Products */,
 				F8D18C6425780DD000EF7B06 /* Frameworks */,
 			);
@@ -146,6 +266,8 @@
 				F8D18BB825780C6D00EF7B06 /* AOCshared.framework */,
 				F8D18BFA25780C9300EF7B06 /* AOC2020.framework */,
 				F8D18C0225780C9400EF7B06 /* AOC2020Tests.xctest */,
+				471A47202CFF9D0C00D08162 /* AOC2024.framework */,
+				471A47272CFF9D0C00D08162 /* AOC2024Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,6 +334,7 @@
 			children = (
 				F8D18C4225780D5D00EF7B06 /* Day.swift */,
 				F8D18C4325780D5D00EF7B06 /* Reader.swift */,
+				471A47582CFFAFF900D08162 /* StringExtensions.swift */,
 			);
 			name = source;
 			path = ../../Shared;
@@ -227,6 +350,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		471A471B2CFF9D0C00D08162 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471A472E2CFF9D0C00D08162 /* AOC2024.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8D18BB325780C6D00EF7B06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +377,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		471A471F2CFF9D0C00D08162 /* AOC2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471A47332CFF9D0C00D08162 /* Build configuration list for PBXNativeTarget "AOC2024" */;
+			buildPhases = (
+				471A471B2CFF9D0C00D08162 /* Headers */,
+				471A471C2CFF9D0C00D08162 /* Sources */,
+				471A471D2CFF9D0C00D08162 /* Frameworks */,
+				471A471E2CFF9D0C00D08162 /* Resources */,
+				471A47392CFF9D1400D08162 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471A47382CFF9D1400D08162 /* PBXTargetDependency */,
+			);
+			name = AOC2024;
+			productName = AOC2024;
+			productReference = 471A47202CFF9D0C00D08162 /* AOC2024.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		471A47262CFF9D0C00D08162 /* AOC2024Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471A47342CFF9D0C00D08162 /* Build configuration list for PBXNativeTarget "AOC2024Tests" */;
+			buildPhases = (
+				471A47232CFF9D0C00D08162 /* Sources */,
+				471A47242CFF9D0C00D08162 /* Frameworks */,
+				471A47252CFF9D0C00D08162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471A472A2CFF9D0C00D08162 /* PBXTargetDependency */,
+			);
+			name = AOC2024Tests;
+			productName = AOC2024Tests;
+			productReference = 471A47272CFF9D0C00D08162 /* AOC2024Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F8D18BB725780C6D00EF7B06 /* AOCshared */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8D18BC925780C6D00EF7B06 /* Build configuration list for PBXNativeTarget "AOCshared" */;
@@ -308,9 +477,15 @@
 		F8D18B8E25780C5000EF7B06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					471A471F2CFF9D0C00D08162 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					471A47262CFF9D0C00D08162 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					F8D18BB725780C6D00EF7B06 = {
 						CreatedOnToolsVersion = 12.0;
 						LastSwiftMigration = 1200;
@@ -340,11 +515,27 @@
 				F8D18BB725780C6D00EF7B06 /* AOCshared */,
 				F8D18BF925780C9300EF7B06 /* AOC2020 */,
 				F8D18C0125780C9400EF7B06 /* AOC2020Tests */,
+				471A471F2CFF9D0C00D08162 /* AOC2024 */,
+				471A47262CFF9D0C00D08162 /* AOC2024Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		471A471E2CFF9D0C00D08162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471A47252CFF9D0C00D08162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8D18BB625780C6D00EF7B06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,10 +570,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		471A471C2CFF9D0C00D08162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471A47552CFF9D3900D08162 /* Day04.swift in Sources */,
+				471A474F2CFF9D3900D08162 /* Day08.swift in Sources */,
+				471A47572CFF9D3900D08162 /* Day02.swift in Sources */,
+				471A47562CFF9D3900D08162 /* Day06.swift in Sources */,
+				471A47522CFF9D3900D08162 /* Day01.swift in Sources */,
+				471A47512CFF9D3900D08162 /* Day09.swift in Sources */,
+				471A474E2CFF9D3900D08162 /* Day05.swift in Sources */,
+				471A47502CFF9D3900D08162 /* Day10.swift in Sources */,
+				471A47542CFF9D3900D08162 /* Day07.swift in Sources */,
+				471A47532CFF9D3900D08162 /* Day03.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471A47232CFF9D0C00D08162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471A472D2CFF9D0C00D08162 /* AOC2024Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8D18BB425780C6D00EF7B06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471A47592CFFAFF900D08162 /* StringExtensions.swift in Sources */,
 				F8D18C4525780D5D00EF7B06 /* Reader.swift in Sources */,
 				F8D18C4425780D5D00EF7B06 /* Day.swift in Sources */,
 			);
@@ -416,6 +633,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		471A472A2CFF9D0C00D08162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471A471F2CFF9D0C00D08162 /* AOC2024 */;
+			targetProxy = 471A47292CFF9D0C00D08162 /* PBXContainerItemProxy */;
+		};
+		471A47382CFF9D1400D08162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D18BB725780C6D00EF7B06 /* AOCshared */;
+			targetProxy = 471A47372CFF9D1400D08162 /* PBXContainerItemProxy */;
+		};
 		F8D18C0525780C9400EF7B06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F8D18BF925780C9300EF7B06 /* AOC2020 */;
@@ -429,6 +656,128 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		471A472F2CFF9D0C00D08162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.AOC2024;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		471A47302CFF9D0C00D08162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.AOC2024;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		471A47312CFF9D0C00D08162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.AOC2024Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		471A47322CFF9D0C00D08162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gordontucker.AOC2024Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F8D18BA925780C5000EF7B06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -563,6 +912,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AOCshared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,6 +939,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AOCshared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,6 +965,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AOC2020/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -640,6 +992,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AOC2020/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -660,6 +1013,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 478Z685Y37;
 				INFOPLIST_FILE = AOC2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -679,6 +1033,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 478Z685Y37;
 				INFOPLIST_FILE = AOC2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,6 +1049,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		471A47332CFF9D0C00D08162 /* Build configuration list for PBXNativeTarget "AOC2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471A472F2CFF9D0C00D08162 /* Debug */,
+				471A47302CFF9D0C00D08162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471A47342CFF9D0C00D08162 /* Build configuration list for PBXNativeTarget "AOC2024Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471A47312CFF9D0C00D08162 /* Debug */,
+				471A47322CFF9D0C00D08162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F8D18B9125780C5000EF7B06 /* Build configuration list for PBXProject "AdventOfCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

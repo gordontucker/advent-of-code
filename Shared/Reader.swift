@@ -12,6 +12,7 @@ public protocol Reader {
     func readString() -> String?
     func readStrings() -> [String]
     func readInts() -> [Int]
+    func readIntRows(separator: String, omittingEmptySubsequences: Bool) -> [[Int]]
     func read<T>(_ map: (String) -> T?) -> [T]
 }
 
@@ -26,6 +27,17 @@ public extension Reader {
     
     func readInts() -> [Int] {
         return self.read({ Int($0) })
+    }
+    
+    func readIntRows() -> [[Int]] {
+        self.readIntRows(separator: " ", omittingEmptySubsequences: true)
+    }
+    
+    func readIntRows(separator: String, omittingEmptySubsequences: Bool) -> [[Int]] {
+        return self.read({ (input: String) -> [Int] in
+            let strings = input.split(separator: separator, omittingEmptySubsequences: omittingEmptySubsequences)
+            return strings.map({ Int($0)! })
+        })
     }
     
     func read<T>(_ map: (String) -> T?) -> [T] {
